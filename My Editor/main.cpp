@@ -1,8 +1,7 @@
 #include <Windows.h>
 
-int WINAPI WinMain(HINSTANCE hinst, HINSTANCE, LPSTR lpstr, int nCmdShow)
+int WINAPI WinMain(_In_ HINSTANCE hinst, _In_opt_ HINSTANCE, _In_ LPSTR lpstr, _In_ int nCmdShow)
 {
-
 
 	return 0;
 }
