@@ -12,6 +12,8 @@ public:
 	//virtual functions
 	virtual void Update() = 0;
 
+	int HEIGHT = GetSystemMetrics(SM_CYSCREEN), WIDTH = GetSystemMetrics(SM_CXSCREEN);
+
 private:
 	bool IsRunning = false;
 };
